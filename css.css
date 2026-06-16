@@ -57,20 +57,24 @@ p {
     
 }
 
+#navegacao > a:hover{
+  border-radius: 6px 6px 6px 6px  ;
+   background-color:#104917 ;
+    background-color: #03b151;
+   
+    padding: 8px;
+    transition: 0.2s;
+    
+}
+
 a {
     
     padding-right: 15px;
     color: white;
     text-decoration: none;
 }
-a:hover{
-    border-radius: 6px 6px 6px 6px  ;
-    background-color: #03b151;
-    padding: 8px;
-    transition: 0.2s;
-    
-   
-}
+
+
 
 .colorido {
     color: green;
