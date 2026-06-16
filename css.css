@@ -101,14 +101,15 @@ h2{
    padding: 20px;
    padding-bottom: 40%;
    position: relative;
+   width: 50%;
    
 }
 .video > iframe{ 
    position: absolute;
    top: 5%;
    left: 5%;
-   width:70%;
-   height: 70%;
+   width:90%;
+   height: 90%;
 }
  
 main img{
