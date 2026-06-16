@@ -95,18 +95,21 @@ h2{
     margin-left: auto; 
     margin-right: auto; 
 }
-
-#video > .centro{
-    background-color: #104917;
-    width: 600px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: block;
-    max-width: 450px;
-    
+#video {
+    background-color: green;
+    width: fit-content; 
+    padding: 15px;      
+    position: relative;
+    margin: 0 auto;     
 }
 
-img{
+#video > iframe {
+    display: block; 
+    width: 400px;       
+    height: 250px;      
+}
+
+main img{
     width: 80%;
 }
  
