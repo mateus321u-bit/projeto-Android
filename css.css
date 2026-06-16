@@ -1,0 +1,132 @@
+@charset "utf8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+        
+}
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.android{
+    font-family: 'idroid';
+    color: rgb(0, 113, 0);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+ }
+ 
+
+ 
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-indent: 40px;
+   text-align: justify;
+}
+
+#topo {
+  background-image: linear-gradient(to bottom, #2ecc71 ,  #104917);
+   display: block;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   margin:  -10px -10px -10px -10px ;
+   
+    }
+
+#titulo {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-family:Anton ;
+    font-weight: 100
+
+     }
+
+#sub {
+    text-align: center;
+    color: rgb(188, 240, 188);
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+a {
+    
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-radius: 6px 6px 6px 6px  ;
+    background-color: #03b151;
+    padding: 8px;
+    transition: 0.2s;
+    
+   
+}
+
+.colorido {
+    color: green;
+}
+
+#esquerda {
+    padding-top: 10px;
+    text-align: left;
+}
+
+h2{
+    background-image: linear-gradient(to right,#2ecc71, #ffffff   );
+}
+
+.centro {
+    text-align: center;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#video > .centro{
+    background-color: #104917;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    max-width: 450px;
+    
+}
+ 
+h3{
+    color: white;
+    text-align: left;
+    background-color:  #104917;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 9px 9px 0px 0px;
+  padding-left: 10px ;}
+
+#tabela {
+    background-color: #7ceca5;
+    border-radius: 9px ;
+    padding-bottom: 10px;
+}
+
+ul{
+    columns: 2;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #104917;
+    display: block;
+    padding: 10px 10px 10px 10px;
+   margin:  -10px -10px -10px -10px ;
+}
+
