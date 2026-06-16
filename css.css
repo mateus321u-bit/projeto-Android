@@ -96,8 +96,8 @@ h2{
     margin-right: auto; 
  }
 .video{
-    background-color: var(--cor4);
-   margin: 0px -20px 20px -20px;
+    background-color: green;
+   margin:auto;
    padding: 20px;
    padding-bottom: 40%;
    position: relative;
