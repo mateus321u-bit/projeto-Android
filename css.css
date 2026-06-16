@@ -97,7 +97,7 @@ h2{
 }
 #video {
     background-color: green;
-    width: fit-content; 
+    width: 15%; 
     padding: 15px;      
     position: relative;
     margin: 0 auto;     
@@ -108,9 +108,9 @@ h2{
     width: 400px;       
     height: 250px;      
 }
- main
+
 main img{
-    width: 80%;
+    width: 75%;
 }
  
 h3{
